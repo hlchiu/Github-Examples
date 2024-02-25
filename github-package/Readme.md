@@ -10,4 +10,4 @@ echo $GH_TOKEN | docker login ghcr.io -u $GH_USERNAME --password-stdin
 docker tag h-world:latest $TAG_NAME
 docker push $TAG_NAME
 
-LABEL org.opencontainers.image.source https://github.com/OWNER/REPO
+LABEL org.opencontainers.image.source https://github.com/hlchiu/Github-Examples
